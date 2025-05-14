@@ -12,7 +12,7 @@ function adicionar(){
             title: 'Opa!',
             text: `Você não pode adicionar um amigo sem nome.`
         })
-        return
+        return;
     }else if(amigos.includes(nomeAmigo.value)){
     Swal.fire({
             title: 'Opa!',
